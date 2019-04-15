@@ -1,0 +1,49 @@
+#red-sqr {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    position: relative;
+    background-color: red;
+}
+
+#blue-sqr {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    position: relative;
+    background-color: blue;
+}
+
+#red-circle {
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    cursor: pointer;
+}
+
+#blue-circle {
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
